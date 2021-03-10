@@ -19,7 +19,7 @@ Running `docker-compose up` will initialise and start the three containers: php-
 You can then access the note endpoint at localhost:8080/note.
 
 There is a file called mysql-dump.sql with mock data that can be executed after opening a mysql shell:
-`docker-compose exec mysql mysql -uDB_USER -pDB_PASSWORD`
+`docker-compose exec mysql mysql -uMYSQL_USER -pMYSQL_PASSWORD`
 
 You can shell into the PHP container like:
 `docker-compose exec php-fpm bash`
