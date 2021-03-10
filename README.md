@@ -3,6 +3,7 @@
 A simple notes rest api built with Symfony that will read notes data from a mysql database.
 
 You will need to create a local env file with the following params:
+```
 APP_ENV
 APP_SECRET
 DATABASE_URL
@@ -10,6 +11,8 @@ MYSQL_ROOT_PASSWORD
 MYSQL_DATABASE
 MYSQL_USER
 MYSQL_PASSWORD
+```
+
 
 Running `docker-compose up` will initialise and start the three containers: php-fpm, nginx and mysql.
 
