@@ -1,6 +1,6 @@
 # Notes Api
 
-A simple notes rest api built with Symfony that will read notes data from a mysql database.
+A simple notes rest api built with Symfony that will serve notes data from a mysql database.
 
 You will need to create a local env file with the following params:
 ```
