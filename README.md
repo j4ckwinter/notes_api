@@ -1,6 +1,6 @@
 # Notes Api
 
-A simple notes rest api built with Symfony.
+A simple notes rest api built with Symfony that will read notes data from a mysql database.
 
 Running `docker-compose up` will initialise and start the three containers: php-fpm, nginx and mysql.
 
